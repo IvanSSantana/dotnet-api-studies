@@ -1,0 +1,21 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "API.Web",
+      "type": "coreclr",
+      "request": "launch",
+      "program": "${workspaceFolder}/bin/Debug/net10.0/API.dll",
+      "cwd": "${workspaceFolder}",
+      "stopAtEntry": false,
+      "console": "integratedTerminal",
+
+      "logging": {
+        "moduleLoad": false,
+        "moduleUnload": false,
+        "threadStart": false,
+        "threadExit": false
+      }
+    }
+  ]
+}
