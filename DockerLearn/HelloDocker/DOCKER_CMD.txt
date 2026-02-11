@@ -1,0 +1,2 @@
+# Comando para rodar o container
+docker run -e APP_UID=1000 -p 80:80 hello-docker:0.0.1-SNAPSHOT
